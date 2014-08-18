@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>My Washman</title>
+    <title>My Washman &raquo; First online subscription laundry service in Ibadan</title>
     <meta name="description" content="Startups template">
     <meta name="keywords" content="Startups template">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
@@ -53,7 +53,6 @@
                     <ul class="navigation-bar navigation-bar-left">
                         <li class="active"><a href="#hero">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#features">Features</a></li>
 						<li><a href="#product">Prices</a></li>
                         <li><a href="#feedback">Feedback</a></li>
                         <li><a href="#team">Team</a></li>
@@ -71,7 +70,7 @@
 
         <div class="text-heading">
             <h1 class="animated hiding highlight2" data-animation="bounceInDown" data-delay="0">Laundry day?! &mdash; <span class="highlight">We've got you covered</span></h1>
-            <p class="animated hiding" data-animation="fadeInDown" data-delay="500">first online subscription laundry service in Ibadan!</p>
+            <p class="animated hiding shadow" data-animation="fadeInDown" data-delay="500">first online subscription laundry service in Ibadan!</p>
         </div>
 		
 		<div class="container">
@@ -115,8 +114,27 @@
             </div>
             <div class="section-content row">
             
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="package-column animated hiding" data-animation="flipInY">
+                        <div class="package-title">Package</div>
+                        <div class="package-price">
+                            <div class="price"><span class="currency">&#8358;</span>Price</div>
+                            <div class="period">Subscription</div>
+                        </div>
+                        <div class="package-detail">
+                            <ul class="list-unstyled">
+                                <li><strong>Maximum number of</strong> Clothes</li>
+                                <li><strong>Pickup</strong> Frequency</li>
+                                <li><strong>Suits</strong> / Jackets</li>
+                                <li><strong>Bed</strong> Sheets</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary btn-block">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2">
+                    <div class="package-column animated hiding" data-animation="flipInY" data-delay="500">
                         <div class="package-title">Silver</div>
                         <div class="package-price">
                             <div class="price"><span class="currency">&#8358;</span>3,500</div>
@@ -124,36 +142,37 @@
                         </div>
                         <div class="package-detail">
                             <ul class="list-unstyled">
-                                <li><strong>Free</strong> Domain</li>
-                                <li><strong>Unlimited</strong> Websites</li>
-                                <li><strong>Unlimited</strong> Bandwidth</li>
-                                <li><strong>Unlimited</strong> Disk Space</li>
+                                <li><strong>Un</strong>limited</li>
+                                <li><strong>Two</strong> Times</li>
+                                <li><strong>X</strong></li>
+                                <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-sm-4">
-                    <div class="package-column animated hiding" data-animation="flipInY" data-delay="500">
+                <div class="col-sm-2">
+                    <div class="package-column animated hiding" data-animation="flipInY">
                         <div class="package-title">Gold</div>
                         <div class="package-price">
                             <div class="price"><span class="currency">&#8358;</span>5,000</div>
-                            <div class="period">subscription</div>
+                            <div class="period">per month</div>
                         </div>
                         <div class="package-detail">
                             <ul class="list-unstyled">
-                                <li><strong>Free</strong> Domain</li>
-                                <li><strong>Unlimited</strong> Websites</li>
-                                <li><strong>Unlimited</strong> Bandwidth</li>
-                                <li><strong>Unlimited</strong> Disk Space</li>
+                                <li><strong>Un</strong>limited</li>
+                                <li><strong>Two</strong> Times</li>
+                                <li><strong>1</strong> Per Pickup</li>
+                                <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-sm-4">
+				
+				
+				<div class="col-sm-2">
                     <div class="package-column animated hiding" data-animation="flipInY">
                         <div class="package-title">Premium</div>
                         <div class="package-price">
@@ -162,12 +181,12 @@
                         </div>
                         <div class="package-detail">
                             <ul class="list-unstyled">
-                                <li><strong>Free</strong> Domain</li>
-                                <li><strong>Unlimited</strong> Websites</li>
-                                <li><strong>Unlimited</strong> Bandwidth</li>
-                                <li><strong>Unlimited</strong> Disk Space</li>
+                                <li><strong>Un</strong>limited</li>
+                                <li><strong>Three</strong> Times</li>
+                                <li><strong>2</strong> Per Pickup</li>
+                                <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
@@ -706,37 +725,30 @@
                     <div class="footer-title">Social Networks</div>
                     <ul class="list-inline socials">
                         <li><a href="#"><span class="icon icon-socialmedia-08"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-09"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-16"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-04"></span></a></li>
-                    </ul>
-                    <ul class="list-inline socials">
                         <li><a href="#"><span class="icon icon-socialmedia-07"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-16"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-09"></span></a></li>
-                        <li><a href="#"><span class="icon icon-socialmedia-08"></span></a></li>
                     </ul>
-                </div>
+
+					</div>
                 <div class="col-sm-3">
                     <div class="footer-title">Our Contacts</div>
                     <ul class="list-unstyled">
                         <li>
                             <span class="icon icon-chat-messages-14"></span> 
-                            <a href="mailto:info@startup.ly">info@startup.ly</a>
+                            <a href="mailto:mywashman@gmail.com" class="color:#ffffff">mywashman@gmail.com</a>
                         </li>
                         <li>
                             <span class="icon icon-seo-icons-34"></span> 
-                            2901 Marmora road, Glassgow, Seattle, WA 98122-1090
+                            44, Oba Abimbola Street, Felele Layout, Ibadan, Oyo state.
                         </li>
                         <li>
                             <span class="icon icon-seo-icons-17"></span>
-                            1 - 234-456-7980
+                            +234(0) 805 5056 178
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="copyright">startup.ly 2014. All rights reserved.</div>
+        <div class="copyright">my washman .. <?php echo date('Y'); ?> .. All rights reserved.</div>
     </footer>
     
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
