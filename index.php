@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Home</title>
+    <title>My Washman</title>
     <meta name="description" content="Startups template">
     <meta name="keywords" content="Startups template">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
@@ -39,13 +39,15 @@
                 <div class="navigation-brand">
                     <div class="brand-logo">
 						<a href="index.html" class="logo"></a>
-						<span class="sr-only">startup.ly</span>
+						<span class="sr-only">my.washman</span>
                     </div>
                     <button class="navigation-toggle visible-xs" type="button" data-toggle="dropdown" data-target=".navigation-navbar">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
+
+        
                 </div>
                 <div class="navigation-navbar">
                     <ul class="navigation-bar navigation-bar-left">
@@ -58,8 +60,7 @@
                         <li><a href="#guarantee">Contacts</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
-                        <li><a href="register.html">Login</a></li>
-                        <li class="featured"><a href="register.html">Sign up</a></li>
+                        <li class="featured"><a href="register.html">Subscribe</a></li>
                     </ul>  
                 </div>
             </div>
@@ -69,8 +70,8 @@
 	<div id="hero" class="static-header register-version light clearfix">
 
         <div class="text-heading">
-            <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0">Do not wait &mdash; <span class="highlight">launch</span> your startup now!</h1>
-            <p class="animated hiding" data-animation="fadeInDown" data-delay="500">this tempate is flexible enough to suit any kind of startup or new business</p>
+            <h1 class="animated hiding highlight2" data-animation="bounceInDown" data-delay="0">Laundry day?! &mdash; <span class="highlight">We've got you covered</span></h1>
+            <p class="animated hiding" data-animation="fadeInDown" data-delay="500">first online subscription laundry service in Ibadan!</p>
         </div>
 		
 		<div class="container">
@@ -83,34 +84,98 @@
 							</div>
 							
 							<div class="form-group">
-								<input size="25" type="email" class="form-control required email" name="email" id="email" placeholder="Email">
+								<input size="25" type="tel" class="form-control required" name="mobile" id="mobile" placeholder="Mobile Number">
 							</div>
-							<div class="form-group password-wrapper">
-								<input type="password" class="form-control required" name="password" id="password" placeholder="Password">
+							
+							<div class="form-group">
+								<select class="form-control required" name="package">
+									<option> (Choose your package)</option>
+									<option> Silver</option>
+									<option> Gold </option>
+									<option> Premium </option>
+								</select>
 							</div>
+
 							<div class="form-group submit-wrap">
 								<input type="hidden" name="small-form"/>
-								<button type="submit" class="btn btn-primary btn-md">Get 14 Day Free Trial</button>
+								<button type="submit" class="btn btn-primary btn-md">Subscribe Now</button>
 							</div>
 						</form>
 				</div>
 			</div>
 		</div>
-		
-    </div>
-    
-    <div id="clients">
-        <div class="container">
-            <ul class="list-inline logos">
-                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="0" src="assets/img/logos/logo-1.png" alt="mashable" /></li>
-                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="assets/img/logos/logo-2.png" alt="tnw" /></li>
-                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="assets/img/logos/logo-3.png" alt="virgin" /></li>
-                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="assets/img/logos/logo-4.png" alt="microsoft" /></li>
-                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="assets/img/logos/logo-5.png" alt="forbes" /></li>
-            </ul>
+		</div>
+		<div class="container">
+            <div class="section-header animated hiding" data-animation="fadeInDown">
+                <h2>PRODUCT <span class="highlight">PACKAGES</span></h2>
+                <div class="sub-heading">
+                    You will be amazed at our offer
+                    <br />Flexible & affordable packages 
+                </div>
+            </div>
+            <div class="section-content row">
+            
+                <div class="col-sm-4">
+                    <div class="package-column animated hiding" data-animation="flipInY">
+                        <div class="package-title">Silver</div>
+                        <div class="package-price">
+                            <div class="price"><span class="currency">&#8358;</span>3,500</div>
+                            <div class="period">per month</div>
+                        </div>
+                        <div class="package-detail">
+                            <ul class="list-unstyled">
+                                <li><strong>Free</strong> Domain</li>
+                                <li><strong>Unlimited</strong> Websites</li>
+                                <li><strong>Unlimited</strong> Bandwidth</li>
+                                <li><strong>Unlimited</strong> Disk Space</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="package-column animated hiding" data-animation="flipInY" data-delay="500">
+                        <div class="package-title">Gold</div>
+                        <div class="package-price">
+                            <div class="price"><span class="currency">&#8358;</span>5,000</div>
+                            <div class="period">subscription</div>
+                        </div>
+                        <div class="package-detail">
+                            <ul class="list-unstyled">
+                                <li><strong>Free</strong> Domain</li>
+                                <li><strong>Unlimited</strong> Websites</li>
+                                <li><strong>Unlimited</strong> Bandwidth</li>
+                                <li><strong>Unlimited</strong> Disk Space</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="package-column animated hiding" data-animation="flipInY">
+                        <div class="package-title">Premium</div>
+                        <div class="package-price">
+                            <div class="price"><span class="currency">&#8358;</span>10,000</div>
+                            <div class="period">per month</div>
+                        </div>
+                        <div class="package-detail">
+                            <ul class="list-unstyled">
+                                <li><strong>Free</strong> Domain</li>
+                                <li><strong>Unlimited</strong> Websites</li>
+                                <li><strong>Unlimited</strong> Bandwidth</li>
+                                <li><strong>Unlimited</strong> Disk Space</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary btn-block">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
-    </div>
-    
+		
+   
     <a id="showHere"></a>
     
 	<section id="about" class="section dark">
@@ -596,6 +661,19 @@
 
             </div>
         </div>
+        
+        
+        <div id="clients">
+        <div class="container">
+            <ul class="list-inline logos">
+                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="0" src="assets/img/logos/logo-1.png" alt="mashable" /></li>
+                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="200" src="assets/img/logos/logo-2.png" alt="tnw" /></li>
+                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="400" src="assets/img/logos/logo-3.png" alt="virgin" /></li>
+                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="600" src="assets/img/logos/logo-4.png" alt="microsoft" /></li>
+                <li><img class="animated hiding" data-animation="fadeInUp" data-delay="800" src="assets/img/logos/logo-5.png" alt="forbes" /></li>
+            </ul>
+        </div>
+    </div>
     </section>
     
     <section id="guarantee" class="long-block light">
@@ -683,5 +761,9 @@
     <script type="text/javascript" src="assets/js/headhesive.min.js"></script>
 	<script type="text/javascript" src="assets/mailchimp/js/mailing-list.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
+    
+    
+    <script src="assets/js/countdown.js" type="text/javascript"></script>
+
 </body>
 </html>

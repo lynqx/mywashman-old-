@@ -42,6 +42,8 @@ h6 { font-size: 20px; font-weight: 700; display: block; }
 .h7 { font-size: 17px; font-weight: 700; display: block; }
 
 .highlight { color: #1ac6ff; } 
+.highlight2 { color: #000; } 
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 20px; margin-bottom: 20px; }
 h5, .h5, h6, .h6, .h7 { margin-top: 20px; margin-bottom: 10px; }
 
@@ -111,7 +113,7 @@ article { text-align: left; }
 .navigation-brand { float: left; }
 .navigation-brand:after { content: ''; display: table; }
 .navigation-brand .brand-logo  { width:215px; height:50px; }
-.navigation-brand .brand-logo .logo { display:block; height: 30px; background:url(../img/logo.png) center center no-repeat; }
+.navigation-brand .brand-logo .logo { display:block; height: 120px; background:url(../img/logo.jpg) center center no-repeat; }
 .fixmenu-clone .brand-logo .logo { background:url(../img/logo-inverted.png) center center no-repeat; }
 .navigation-brand .brand-logo h4 { margin-top:15px; }
 .navigation-brand .brand-logo  a { color:#fff; }
@@ -433,7 +435,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus { ou
 
 .package-column .package-title { color: #47484c; font-size: 25px; padding: 20px 0 18px; font-weight: 300; text-transform: uppercase; }
 .package-column .package-price { background:rgba(171, 172, 179, 0.1); padding: 15px; }
-.package-column .package-price .price { color: #1ac6ff; font-size: 110px; font-weight: 300; line-height: 110px; position: relative; }
+.package-column .package-price .price { color: #1ac6ff; font-size: 90px; font-weight: 300; line-height: 110px; position: relative; }
 .package-column .package-price .currency { font-size: 47px; line-height: 47px; font-weight: 300; position: relative; top:-40px; }
 .package-column .package-price .period { font-size: 15px; color: #1ac6ff; text-transform: uppercase; }
 .package-column .package-detail { padding: 30px 15% 50px; }
