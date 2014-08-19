@@ -1,0 +1,31 @@
+
+body{
+	margin:0;
+	padding:0;
+}
+.drivepage{
+	background: transparent;
+	display:none;
+	margin:0;
+	padding-top:2px;
+	padding-bottom:20px;
+	width:100%;
+	height:auto;
+	min-height: 200px;
+	position:absolute;
+	color:darkblue;
+}
+
+.drivesubpage{
+	background: green;
+	display:none;
+	margin:10px;
+	min-width:40%;
+	width:auto;
+	height:auto;
+	min-height: 200px;
+	color:red;
+}
+
+
+
