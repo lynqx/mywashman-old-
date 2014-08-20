@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Register</title>
+    <title>Subscribe</title>
     <meta name="description" content="PSD to HTML5+CSS3 conversion.">
     <meta name="keywords" content="PSD, HTML5, CSS3">
     <meta name="author" content="Erwin Kaddy">
@@ -47,18 +47,13 @@
                 </div>
                 <div class="navigation-navbar">
                     <ul class="navigation-bar navigation-bar-left">
-                        <li class="active"><a href="#index">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#features">Features</a></li>
-						<li><a href="#product">Prices</a></li>
-                        <li><a href="#feedback">Feedback</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#footer">Contacts</a></li>
+                        <li><a href="index.php#!home">Home</a></li>
+                        <li><a href="index.php#!about">About</a></li>
+                        <li><a href="index.php#!product">Pricing</a></li>
+                        <li><a href="index.php#!features">Features</a></li>
+                        <li><a href="index.php#!guarantee">Contacts</a></li>
                     </ul>
-                    <ul class="navigation-bar navigation-bar-right">
-                        <li><a href="register.html">Login</a></li>
-                        <li class="featured"><a href="register.html">Sign up</a></li>
-                    </ul>  
+
                 </div>
             </div>
         </nav>
@@ -66,8 +61,8 @@
     
     <div id="hero" class="static-header light">
         <div class="text-heading">
-            <h1>Start Your <span class="highlight">30-Day</span> Free Trial</h1>
-            <p>Stop pirates from stealing your products and <span>increase sales now!</span></p>
+            <h1>Select Your <span class="highlight">Favourite</span> Package</h1>
+            <p>Stop worrying about your laundry<span class="highlight"> after this process!</span></p>
         </div>
         
         <div class="container">
@@ -77,19 +72,39 @@
                         <div class="form-group">
                             <label for="fullname" class="col-sm-3 col-xs-12 control-label">Full name</label>
                             <div class="col-sm-9 col-xs-12">
-                                <input type="text" class="form-control required" name="fullname" id="fullname" placeholder="">
+                                <input type="text" class="form-control required" name="fullname" id="fullname" placeholder="" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="website" class="col-sm-3 col-xs-12 control-label">Site address</label>
+                            <label for="mobile" class="col-sm-3 col-xs-12 control-label">Mobile</label>
                             <div class="col-sm-9 col-xs-12">
-                                <input type="text" class="form-control" name="website" id="website" placeholder="">
+                                <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="" required>
                             </div>
                         </div>
+                        
                         <div class="form-group">
                             <label for="email" class="col-sm-3 col-xs-12 control-label">Email address</label>
                             <div class="col-sm-9 col-xs-12">
-                                <input type="email" class="form-control required email" name="email" id="email" placeholder="">
+                                <input type="email" class="form-control required email" name="email" id="website" placeholder="" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 col-xs-12 control-label">House address</label>
+                            <div class="col-sm-9 col-xs-12">
+                                <input type="text" class="form-control required" name="address" id="address" placeholder="" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 col-xs-12 control-label">Package</label>
+                            <div class="col-sm-9 col-xs-12">
+                                <select class="form-control required" name="address" id="package" placeholder="">
+                                	<option value=""> (Select a package) </option>
+                                	<option value="silver"> Silver (&#8358; 3,500) </option>
+                                	<option value="gold"> Gold (&#8358; 5,000) </option>
+                                	<option value="premium"> Premium (&#8358; 10,000) </option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -99,25 +114,16 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="confirmPassword" class="col-sm-3 col-xs-12 control-label">Password</label>
+                            <label for="confirmPassword" class="col-sm-3 col-xs-12 control-label"> Confirm Password</label>
                             <div class="col-sm-9 col-xs-12">
                                 <input type="password" class="form-control required" name="confirmPassword" id="confirmPassword" placeholder="">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="newsletter" value="1"> Submit to the monthly newsletter
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Get started</button>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-block"> Subscribe Now</button>
                     </form>
                     
-                    <p class="agree-text">By clicking you agree to our Terms of Service, Privacy Policy & Refund Policy.<br />
-                    I have a referral code I'd like to enter</p>
+                    <p class="agree-text">By clicking you agree to our Terms of Service, Privacy Policy & Refund Policy.</p>
                 </div>
             </div>
         </div>

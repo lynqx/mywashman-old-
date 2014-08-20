@@ -82,7 +82,7 @@
                         <li><a href="#!guarantee">Contacts</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
-                        <li class="featured"><a href="register.html">Subscribe</a></li>
+                        <li class="featured"><a href="subscribe.php">Subscribe</a></li>
                     </ul>  
                 </div>
             </div>
@@ -176,7 +176,7 @@
                                 <li><strong>X</strong></li>
                                 <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
+                            <a href="#" class="btn">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                                 <li><strong>1</strong> Per Pickup</li>
                                 <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
+                            <a href="#" class="btn">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
@@ -215,13 +215,14 @@
                                 <li><strong>2</strong> Per Pickup</li>
                                 <li><strong>Yes</strong></li>
                             </ul>
-                            <a href="#" class="btn btn-secondary btn-block">Subscribe &raquo;</a>
+                            <a href="#" class="btn">Subscribe &raquo;</a>
                         </div>
                     </div>
                 </div>
                 
             </div>
         </div>
+        <div class="clr"></div>
     </section>
 <!-- ****************************  END OF HOME PAGE   ******************************************* -->
 
