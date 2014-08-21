@@ -129,7 +129,7 @@ article { text-align: left; }
 .navigation-navbar { display: block; }
 .navigation-bar { margin: 0 auto; padding: 0; list-style: none;  }
 .navigation-bar-left { float: left; background-color:#2994E4; height:58px; color:#ffffff; text-shadow: 1px -1px 2px #000; border-radius:8px; border:1px solid #1ac6ff; box-shadow: 0px 3px 3px #333; }
-.navigation-bar-right { float: right; margin:0 80px 0 0; }
+.navigation-bar-right { float: right; margin:0 30px 0 0; }
 .navigation-bar > li { display: inline-block; }
 .navigation-bar > li a { display: inline-block; padding:15px; }
 .navigation-bar > li a:Hover,

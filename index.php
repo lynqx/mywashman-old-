@@ -75,13 +75,14 @@
                 </div>
                 <div class="navigation-navbar">
                     <ul class="navigation-bar navigation-bar-left">
-                        <li><a href="#!home">Home</a></li>
-                        <li><a href="#!about">About</a></li>
-                        <li><a href="#!product">Pricing</a></li>
-                        <li><a href="#!features">Features</a></li>
-                        <li><a href="#!guarantee">Contacts</a></li>
+                        <li><a href="index.php#!home">Home</a></li>
+                        <li><a href="index.php#!about">About</a></li>
+                        <li><a href="index.php#!product">Pricing</a></li>
+                        <li><a href="index.php#!features">Features</a></li>
+                        <li><a href="index.php#!guarantee">Contacts</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
+                        <li class="featured"><a href="login.php">Login</a></li>
                         <li class="featured"><a href="subscribe.php">Subscribe</a></li>
                     </ul>  
                 </div>
@@ -238,7 +239,7 @@
                 <div id="featuredTab">
                     <ul class="list-unstyled animated" data-animation="fadeInRight">
                       <li class="active">
-                          <a href="#!home" data-toggle="tab">
+                          <a href="#home" data-toggle="tab">
                               <div class="tab-info">
                                   <div class="tab-title">Lorem Dolor</div>
                                   <div class="tab-desc">Sit amet, consectetur adipiscing elit<br />hac divisione rem ipsam prorsus</div>
@@ -247,7 +248,7 @@
                           </a>
                       </li>
                       <li>
-                          <a href="#!profile" data-toggle="tab">
+                          <a href="#profile" data-toggle="tab">
                               <div class="tab-info">
                                   <div class="tab-title">Lorem Dolor</div>
                                   <div class="tab-desc">Sit amet, consectetur adipiscing elit<br />hac divisione rem ipsam prorsus</div>
@@ -618,29 +619,48 @@
         <div class="container">
             <div class="section-content row">                
                 <div class="col-sm-6 pull-right animated" data-animation="fadeInRight">
-                    <img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 2" />
+                	<br>
+                	<br>
+                	<br>
+                    <img src="assets/img/contact.png" class="img-responsive" alt="process 2" />
                 </div>
                 <div class="col-sm-6 animated" data-animation="fadeInLeft">
                     <br/><br/>
                     <article>
-                        <h3>NEW AGE <span class="highlight">TECHNOLOGY</span></h3>
-                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-                    </article>
-                </div>
-                
-                <hr class="clearfix" />
-                
-                <div class="col-sm-6 animated" data-animation="fadeInLeft">
-                    <img src="assets/img/features/helmet.jpg" class="img-responsive" alt="process 3" />
-                </div>
-                <div class="col-sm-6 animated" data-animation="fadeInRight">
-                    <br/><br/>
-                    <article>
-                        <h3>HANG <span class="highlight">ON TO</span> YER HELMET</h3>
-                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-                    </article>
+                        <h3>Talk to Us <span class="highlight">ANYTIME</span></h3>
+                        <div class="sub-title">A support officer will respond to your<br/> enquiries or comments within 24 hours</div>
+
+				<div class="col-sm-9">
+                    <form class="form form-register dark" id="contact" method="post" action="signup.php">
+                        <div class="form-group">
+                            <div class="col-sm-12 col-xs-12">
+                                <input type="text" class="form-control required" name="fullname" id="fullname" placeholder="Full Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12 col-xs-12">
+                                <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-sm-12 col-xs-12">
+                                <input type="email" class="form-control required email" name="email" id="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-sm-12 col-xs-12">
+                            	<label for="message" class="col-sm-3 col-xs-12 control-label"> Message </label>
+                                <textarea class="form-control required" name="message" id="message" placeholder="Message" required>
+                                </textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-sm pull-right"> Contact Us</button>
+                    </form>
+
+                </article>
                 </div>
                 
             </div>
@@ -660,26 +680,35 @@
         <div class="container">
         
             <ul class="nav nav-tabs alt">
-                <li class="active"><a href="#" data-toggle="tab">FIRST TAB</a></li>
-                <li><a href="#" data-toggle="tab">SECOND TAB</a></li>
-                <li><a href="#" data-toggle="tab">THIRD TAB</a></li>
+                <li class="active"><a href="#first-tab-alt" data-toggle="tab">ABOUT US</a></li>
+                <li><a href="#second-tab-alt" data-toggle="tab">LAUNDRY SERVICES</a></li>
+                <li><a href="#third-tab-alt" data-toggle="tab">3 EASY STEPS</a></li>
             </ul>
                     
             <div class="tab-content alt">
                 <div class="tab-pane active" id="first-tab-alt">
                     <div class="section-content row">        
                                 <div class="col-sm-6 animated" data-animation="fadeInLeft">
-                                    <img src="assets/img/features/people.jpg" class="img-responsive" alt="process 3" />
+                                    <img src="assets/img/about.png" class="img-responsive" alt="process 3" />
                                 </div>
                                 <div class="col-sm-6 animated" data-animation="fadeInRight">
                                     <br/>
                                     <article class="center">
-                                        <h3>FOR EVERY <span class="highlight">STARTUP</span></h3>
-                                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                                        <h3>WHAT YOU NEED<span class="highlight">TO KNOW</span></h3>
+                                        <div class="sub-title">Oracle write something here about us.<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
                                         <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
                                         <br/>
-                                        <a href="#" class="btn btn-secondary animated" data-animation="bounceIn" data-delay="700">Get template</a>
-                                        <a href="#" class="btn btn-secondary animated" data-animation="bounceIn" data-delay="700">See elements</a>
+                                        
+                                        <h3>WHO <span class="highlight">WE ARE</span></h3>
+										<div class="sub-title">Oracle write something here for our vision.<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
+                                        <br/>
+                                        
+                                        <h3>WHAT <span class="highlight">WE DO</span></h3>
+										<div class="sub-title">Oracle write something here for our mission.<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
+                                        <br/>
+                                        
                                     </article>
                                 </div>
                     </div>
@@ -688,12 +717,12 @@
                 <div class="tab-pane" id="second-tab-alt">
                            <div class="section-content row">                
                                 <div class="col-sm-6 pull-right animated" data-animation="fadeInRight">
-                                    <img src="assets/img/features/phone.jpg" class="img-responsive pull-right" alt="process 2" />
+                                    <img src="assets/img/iron.png" class="img-responsive pull-right" alt="process 2" />
                                 </div>
                                 <div class="col-sm-6 animated" data-animation="fadeInLeft">
                                     <br/><br/>
                                     <article class="center">
-                                        <h3>NEW AGE <span class="highlight">TECHNOLOGY</span></h3>
+                                        <h3>LAUNDRY AND<span class="highlight">DRY CLEANING</span></h3>
                                         <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
                                         <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
                                     </article>
@@ -705,32 +734,44 @@
                     <div class="section-header animated center" data-animation="fadeInDown">
                         <h2>3 EASY STEPS</h2>
                         <div class="sub-heading">
-                            Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
+                            Oracle should write something here. <br>Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
                             <br />dfs sit atmet sit dolor greand fdanrh sdfs
                         </div>
                     </div>
                     <div class="section-content row">
                         <div class="col-sm-4">
                             <article class="text-center animated" data-animation="fadeInLeft" data-delay="0">
-                                <i class="howitworks icon icon-shopping-04 icon-active"></i>
-                                <span class="h7">PLACE ORDER</span>
-                                <p class="thin" >Sit amet, consectetur adipiscing elit.<br />In hac divisione rem ipsam prorsus probo<br />elegantiam desidero.</p>
+                                <i class="">
+                                    <img src="assets/img/icon/step-1.png" class="howitworks" alt="process 2" />
+								</i>
+                                <span class="h7"><a href="subscribe.php" style="color:#FF0000">SUBSCRIBE</a></span>
+                                <p class="thin" >Oracle should write something here.
+                                	<br />Oracle should write something here
+                                	<br />Oracle should write something here.</p>
                             </article>
                             <!--<span class="icon icon-arrows-04"></span>-->
                         </div>
                         <div class="col-sm-4">
                             <article class="text-center animated" data-animation="fadeInLeft" data-delay="400">
-                                <i class="howitworks icon icon-seo-icons-03 icon-active"></i>
+                                <i class="">
+                                <img src="assets/img/icon/step-2.png" class="howitworks" alt="process 2" />
+                                </i>
                                 <span class="h7">OUR SYSTEM RUNS</span>
-                                <p class="thin" >Sit amet, consectetur adipiscing elit.<br />In hac divisione rem ipsam prorsus probo<br />elegantiam desidero.</p>
+                                <p class="thin" >Oracle should write something here
+                                	.<br />Oracle should write something here
+                                	<br />Oracle should write something here.</p>
                             </article>
                             <!--<span class="icon icon-arrows-04"></span>-->
                         </div>
                         <div class="col-sm-4">
                             <article class="text-center animated" data-animation="fadeInLeft" data-delay="800">
-                                <i class="howitworks icon icon-seo-icons-05 icon-active"></i>
-                                <span class="h7">RECEIVE REPORT</span>
-                                <p class="thin" >Sit amet, consectetur adipiscing elit.<br />In hac divisione rem ipsam prorsus probo<br />elegantiam desidero.</p>
+                                <i class="">
+                                <img src="assets/img/icon/step-3.png" class="howitworks" alt="process 2" />
+                                </i>
+                                <span class="h7" style="color:#2994E40">WE DELIVER; AND TO TIME!</span>
+                                <p class="thin" >Oracle should write something here.
+                                	<br />Oracle should write something here
+                                	<br />Oracle should write something here.</p>
                             </article>
                         </div>
                     </div>
